@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python -c \"import sys, json; nb = json.load\\(sys.stdin\\); print\\('\\\\n'.join\\([f\\\\\"Cell {i}: {c['cell_type']} - {c['source'][:50]}...\\\\\" if c['source'] else f\\\\\"Cell {i}: {c['cell_type']} - \\(vide\\)\\\\\" for i, c in enumerate\\(nb['cells']\\)]\\)\\)\")"
+      "Bash(python -c \"import sys, json; nb = json.load\\(sys.stdin\\); print\\('\\\\n'.join\\([f\\\\\"Cell {i}: {c['cell_type']} - {c['source'][:50]}...\\\\\" if c['source'] else f\\\\\"Cell {i}: {c['cell_type']} - \\(vide\\)\\\\\" for i, c in enumerate\\(nb['cells']\\)]\\)\\)\")",
+      "WebSearch"
     ]
   }
 }
